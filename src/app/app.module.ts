@@ -17,6 +17,8 @@ import { AngularFireModule } from "@angular/fire";
 import { AngularFireAuthModule } from "@angular/fire/auth";
 import { LoginComponent } from './admin/login/login.component';
 
+
+
 var config = {
   apiKey: "AIzaSyDCgz-DoAcS2EY4m9kMT27n01goFuTEc_w",
   authDomain: "tecnocultura-df5ce.firebaseapp.com",
@@ -38,7 +40,9 @@ var config = {
     EditorialComponent,
     ContactanosComponent,
     LineamientosComponent,
-    LoginComponent
+    LoginComponent,
+
+
   ],
   imports: [
     BrowserModule,

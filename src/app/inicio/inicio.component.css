@@ -1,0 +1,28 @@
+/*Estaticos(barra)*/
+.statics {
+	background-color: rgb(240, 44, 10);
+	color: #fff;
+	padding-top: 44px;
+	padding-bottom:44px;
+    text-align: center;
+}
+
+.stats-list {
+	text-align: center;
+	display: inline-flex;
+	text-align: left;
+}
+.stats-list .icon {
+    font-size: 54px;
+    text-align: center;
+    position: relative;
+    top: 4px;
+}
+.stats-list-icon {
+	padding-right: 20px;
+}
+
+.stats-list h3 {
+	text-transform: uppercase;
+}
+

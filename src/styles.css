@@ -216,6 +216,7 @@ h4 {
 /*.navbar {
 	padding-top: 40px;
 }*/
+/*
 .navbar {
     padding-top: 40px;
 }
@@ -248,7 +249,7 @@ h4 {
 .navbar-dark .navbar-nav .show > .nav-link {
     color: #EE5A3F;
 }
-
+*/
 
 
 header {
@@ -281,7 +282,7 @@ header p {
 ===========
 02. Statics
 ===========
-*/
+*//*
 .statics {
 	background-color: #EE5A3F;
 	color: #fff;
@@ -308,7 +309,7 @@ header p {
 .stats-list h3 {
 	text-transform: uppercase;
 }
-
+*/
 
 /*
 =================
@@ -678,7 +679,7 @@ footer .copy-line  {
 @media only screen and (max-width: 991px) {
     .navbar-nav {
         text-align: center;
-        border-top: 1px solid rgba(255,255,255, .3);
+        border-top: 1px solid rgba(250, 6, 6, 0.3);
         margin-top: 15px;
         padding-top: 15px;
     }
