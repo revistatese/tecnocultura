@@ -16,6 +16,8 @@ import { AdminModule } from './admin/admin.module'
 import { AngularFireModule } from "@angular/fire";
 import { AngularFireAuthModule } from "@angular/fire/auth";
 import { LoginComponent } from './admin/login/login.component';
+import { Numero49Component } from './numero49/numero49.component';
+
 
 
 
@@ -41,6 +43,8 @@ var config = {
     ContactanosComponent,
     LineamientosComponent,
     LoginComponent,
+    Numero49Component,
+ 
 
 
   ],

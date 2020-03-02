@@ -7,6 +7,7 @@ import {EditorialComponent} from './editorial/editorial.component'
 import{InicioComponent} from './inicio/inicio.component'
 import{LineamientosComponent} from './lineamientos/lineamientos.component'
 import {NAnterioresComponent} from './n-anteriores/n-anteriores.component'
+import { Numero49Component } from './numero49/numero49.component';
 
 
 const routes: Routes = [
@@ -32,7 +33,13 @@ const routes: Routes = [
 {
 path:  'Anteriores',
 component:  NAnterioresComponent
-}
+},
+{
+  path:  'Numero49',
+  component:  Numero49Component
+  },
+  
+
 ];
 
 @NgModule({
