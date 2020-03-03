@@ -433,7 +433,7 @@ header p {
 ===================
 08. Pricing Tables
 ===================
-*/
+*//*
 #pricing {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.55)), 
     url("../assets/fondo tese 2.jpg");
@@ -459,7 +459,7 @@ header p {
     padding-top: 20px;
     padding-bottom: 20px;
     border-bottom: 1px solid #C1C1C1;
-    color: #606060;
+    color: #fd0a0a;
     font-weight: 500;
     letter-spacing: 1px;
     line-height: 22px;
@@ -513,7 +513,7 @@ header p {
 .pricing-table.popular .price {
     background-color: #EE5A3F;
 }
-
+*/
 
 /*
 ===================
