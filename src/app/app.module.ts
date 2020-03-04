@@ -17,6 +17,8 @@ import { AngularFireModule } from "@angular/fire";
 import { AngularFireAuthModule } from "@angular/fire/auth";
 import { LoginComponent } from './admin/login/login.component';
 import { Numero49Component } from './numero49/numero49.component';
+import { Numero48Component } from './numero48/numero48.component';
+import { Numero47Component } from './numero47/numero47.component';
 
 
 
@@ -44,6 +46,8 @@ var config = {
     LineamientosComponent,
     LoginComponent,
     Numero49Component,
+    Numero48Component,
+    Numero47Component,
  
 
 
