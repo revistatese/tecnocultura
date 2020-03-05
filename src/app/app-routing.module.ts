@@ -10,6 +10,8 @@ import {NAnterioresComponent} from './n-anteriores/n-anteriores.component'
 import { Numero49Component } from './numero49/numero49.component';
 import { Numero48Component } from './numero48/numero48.component';
 import { Numero47Component } from './numero47/numero47.component';
+import { Numero30Component } from './numero30/numero30.component';
+import { Numero34Component } from './numero34/numero34.component';
 
 
 const routes: Routes = [
@@ -49,7 +51,16 @@ component:  NAnterioresComponent
     path:  'Numero47',
     component:  Numero47Component
     },
-];
+    {
+      path:  'Numero30',
+      component:  Numero30Component
+      },
+      {
+        path:  'Numero34',
+        component:  Numero34Component
+        },
+  ];
+
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

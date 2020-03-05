@@ -19,6 +19,8 @@ import { LoginComponent } from './admin/login/login.component';
 import { Numero49Component } from './numero49/numero49.component';
 import { Numero48Component } from './numero48/numero48.component';
 import { Numero47Component } from './numero47/numero47.component';
+import { Numero30Component } from './numero30/numero30.component';
+import { Numero34Component } from './numero34/numero34.component';
 
 
 
@@ -48,6 +50,8 @@ var config = {
     Numero49Component,
     Numero48Component,
     Numero47Component,
+    Numero30Component,
+    Numero34Component,
  
 
 
