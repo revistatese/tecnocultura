@@ -12,6 +12,7 @@ import { Numero48Component } from './numero48/numero48.component';
 import { Numero47Component } from './numero47/numero47.component';
 import { Numero30Component } from './numero30/numero30.component';
 import { Numero34Component } from './numero34/numero34.component';
+import { Numero46Component } from './numero46/numero46.component';
 
 
 const routes: Routes = [
@@ -51,6 +52,10 @@ component:  NAnterioresComponent
     path:  'Numero47',
     component:  Numero47Component
     },
+    {
+      path:  'Numero46',
+      component:  Numero46Component
+      },
     {
       path:  'Numero30',
       component:  Numero30Component

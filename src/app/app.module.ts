@@ -21,6 +21,7 @@ import { Numero48Component } from './numero48/numero48.component';
 import { Numero47Component } from './numero47/numero47.component';
 import { Numero30Component } from './numero30/numero30.component';
 import { Numero34Component } from './numero34/numero34.component';
+import { Numero46Component } from './numero46/numero46.component';
 
 
 
@@ -52,6 +53,7 @@ var config = {
     Numero47Component,
     Numero30Component,
     Numero34Component,
+    Numero46Component,
  
 
 
