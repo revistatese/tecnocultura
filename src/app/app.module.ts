@@ -23,6 +23,15 @@ import { Numero30Component } from './numero30/numero30.component';
 import { Numero34Component } from './numero34/numero34.component';
 import { Numero46Component } from './numero46/numero46.component';
 import { Numero43Component } from './numero43/numero43.component';
+import { Numero42Component } from './numero42/numero42.component';
+import { Numero44Component } from './numero44/numero44.component';
+import { Numero17Component } from './numero17/numero17.component';
+import { Numero19Component } from './numero19/numero19.component';
+import { Numero20Component } from './numero20/numero20.component';
+import { Numero35Component } from './numero35/numero35.component';
+import { Numero40Component } from './numero40/numero40.component';
+import { Numero41Component } from './numero41/numero41.component';
+
 
 
 
@@ -56,6 +65,15 @@ var config = {
     Numero34Component,
     Numero46Component,
     Numero43Component,
+    Numero42Component,
+    Numero44Component,
+    Numero17Component,
+    Numero19Component,
+    Numero20Component,
+    Numero35Component,
+    Numero40Component,
+    Numero41Component,
+ 
  
 
 
