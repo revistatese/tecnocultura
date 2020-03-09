@@ -9,7 +9,7 @@
           <li class="nav-item"> <a class="nav-link"  routerLink="/Anteriores">Numeros Anteriores</a> </li>
           <li class="nav-item"> <a class="nav-link" routerLink="/Editorial">Editorial</a> </li>
           <li class="nav-item"> <a class="nav-link" routerLink="/Contactanos">Contactanos</a> </li>
-          <li class="nav-item"> <a class="nav-link"  routerLink="/admin/list">Login</a></li>
+          <li  *ngIf="!authService.isLoggedIn" class="nav-item"> <a class="nav-link"  routerLink="/admin/list">Login</a></li>
           <li  *ngIf="authService.isLoggedIn" class="nav-item"><a class="nav-link"  (click)="authService.logout()">Logout</a>
         </li>
         </ul>

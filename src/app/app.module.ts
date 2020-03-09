@@ -31,18 +31,21 @@ import { Numero20Component } from './numero20/numero20.component';
 import { Numero35Component } from './numero35/numero35.component';
 import { Numero40Component } from './numero40/numero40.component';
 import { Numero41Component } from './numero41/numero41.component';
-
+import{AuthService} from './auth/auth.service.service';
 
 
 
 
 var config = {
-  apiKey: "AIzaSyDCgz-DoAcS2EY4m9kMT27n01goFuTEc_w",
-  authDomain: "tecnocultura-df5ce.firebaseapp.com",
-  databaseURL: "https://tecnocultura-df5ce.firebaseio.com",
-  projectId: "tecnocultura-df5ce",
-  storageBucket: "tecnocultura-df5ce.appspot.com",
-  messagingSenderId: "189181717351",
+  apiKey: "AIzaSyBPtj72z2hEkAiElAJa5GdghKVrB5ehdk4",
+    authDomain: "revistatecnocultura-ef63f.firebaseapp.com",
+    databaseURL: "https://revistatecnocultura-ef63f.firebaseio.com",
+    projectId: "revistatecnocultura-ef63f",
+    storageBucket: "revistatecnocultura-ef63f.appspot.com",
+    messagingSenderId: "854432391264",
+    appId: "1:854432391264:web:b3dffceb1ffe1f9083e305"
+
+
 };
 
 
@@ -82,10 +85,11 @@ var config = {
     BrowserModule,
     AppRoutingModule,
     AdminModule,
+    
     AngularFireModule.initializeApp(config),
     AngularFireAuthModule
   ],
-  providers: [],
+  providers: [AuthService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
