@@ -32,6 +32,8 @@ import { Numero35Component } from './numero35/numero35.component';
 import { Numero40Component } from './numero40/numero40.component';
 import { Numero41Component } from './numero41/numero41.component';
 import{AuthService} from './auth/auth.service.service';
+import { AdministradorComponent } from './administrador/administrador.component';
+
 
 
 
@@ -60,6 +62,7 @@ var config = {
     EditorialComponent,
     ContactanosComponent,
     LineamientosComponent,
+    AdministradorComponent,
     LoginComponent,
     Numero49Component,
     Numero48Component,
@@ -76,6 +79,8 @@ var config = {
     Numero35Component,
     Numero40Component,
     Numero41Component,
+    
+    
  
  
 
