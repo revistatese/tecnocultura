@@ -111,15 +111,11 @@ component:  NAnterioresComponent
               path:  'Numero17',
               component:  Numero17Component
               },
-
-<<<<<<< HEAD
               
-=======
               {
                 path:  'Administrador',
                 component:  AdministradorComponent
                 },
->>>>>>> 3d1175423335c60dbd0155a5eff6d8610ac27f51
  
   
     
