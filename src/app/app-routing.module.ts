@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 //Componentes
 import {ContactanosComponent} from './contactanos/contactanos.component'
+import { AdministradorComponent } from './administrador/administrador.component'
 import{ConocemosComponent} from './conocemos/conocemos.component'
 import {EditorialComponent} from './editorial/editorial.component'
 import{InicioComponent} from './inicio/inicio.component'
@@ -111,7 +112,14 @@ component:  NAnterioresComponent
               component:  Numero17Component
               },
 
+<<<<<<< HEAD
               
+=======
+              {
+                path:  'Administrador',
+                component:  AdministradorComponent
+                },
+>>>>>>> 3d1175423335c60dbd0155a5eff6d8610ac27f51
  
   
     
