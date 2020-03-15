@@ -1,4 +1,15 @@
-.active-link{
+body{
+    background: linear-gradient(white (0, 0, 0, 0.5), white (0, 0, 0, 0.55)), 
+    url("../assets/fondo tese 2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    background-color: white;
+    color: white;
+}
+
+    .active-link{
     color:red;
     }
 
@@ -9,8 +20,8 @@
         background-position: center;
         background-attachment: fixed;
         position: relative;
-        background-color: #202020;
-        color: #fff;
+        background-color: white;
+        color: white;
     }
     #pricing .section-title {
         padding-bottom: 75px;
@@ -36,8 +47,8 @@
     
     .pricing-table {
         text-align: center;
-        background-color: #fff;
-        color:black;
+        color: white;
+        background-color:initial;
         padding-bottom: 50px;
         margin-top: 15px;
         margin-bottom: 15px;
@@ -52,7 +63,7 @@
     .pricing-table h4 {
         font-size: 20px;
         text-transform: uppercase;
-        color: #0e0d0d;
+        color: white;
         padding-top: 40px;
         padding-bottom: 40px;
         margin-bottom: 0;
