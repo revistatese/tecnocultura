@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Router } from  "@angular/router";
-import { auth } from  'firebase/app';
+import * as firebase from  'firebase/app';
 import { AngularFireAuth } from  "@angular/fire/auth";
 import { User } from  'firebase';
 
@@ -37,7 +37,10 @@ export  class  AuthService {
   }
   get isLoggedIn(): boolean {
     const  user  =  JSON.parse(localStorage.getItem('user'));
+
     return  user  !==  null;
 }
+
+
 
 }
