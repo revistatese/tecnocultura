@@ -23,6 +23,7 @@ import { Numero20Component } from './numero20/numero20.component';
 import { Numero35Component } from './numero35/numero35.component';
 import { Numero40Component } from './numero40/numero40.component';
 import { Numero41Component } from './numero41/numero41.component';
+import { UnploadFileComponent } from './unpload-file/unpload-file.component';
 
 
 
@@ -116,6 +117,11 @@ component:  NAnterioresComponent
                 path:  'Administrador',
                 component:  AdministradorComponent
                 },
+
+                {
+                  path:  'unpload-file',
+                  component:  UnploadFileComponent
+                  },
  
   
     
