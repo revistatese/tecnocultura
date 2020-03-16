@@ -1,3 +1,13 @@
+
+h2.numero{
+    color: rgb(255, 254, 254);
+}
+h4.texto{
+    color: rgb(255, 254, 254);
+}
+pre.text-center{
+    color:lightgrey;
+}
 hr {
     border-top: 5px solid rgba(0,0,0,.2);
 }
@@ -38,9 +48,9 @@ hr {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    position: relative;
-    background-color: #202020;
-    color: #fff;
+    position: absolute;
+    background-color: #e40909;
+    color: rgb(245, 168, 168);
 }
 #pricing .section-title {
     padding-bottom: 75px;
@@ -63,13 +73,13 @@ hr {
     line-height: 22px;
     font-size: 18px;
 }
-
+/*Fondo numero/c*/
 .pricing-table {
     text-align: center;
-    background-color: #fff;
-    padding-bottom: 50px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    background:lightgrey;
+    padding-bottom: 6px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     border-radius: 4px;
 }
 .pricing-table.big {
@@ -81,9 +91,9 @@ hr {
 .pricing-table h4 {
     font-size: 18px;
     text-transform: uppercase;
-    color: #070707;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    color: #000000;
+    padding-top: 1%;
+    padding-bottom: 1%;
     margin-bottom: 0;
 }
 
@@ -132,7 +142,7 @@ hr {
     top: 4px;
 }
 .section-title.light p{
-    color: #fff;
+    color: rgb(245, 240, 240);
 }
 .section-title.light hr {
     border-color: rgba(255,255,255, .5);

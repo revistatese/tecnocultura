@@ -1,7 +1,21 @@
 body {
     font-family: 'Raleway', sans-serif;
-    color: #202020;
+    color: white;
     position: relative;
+    
+    /*
+===================
+Fondo de las revistas
+===================
+*/
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.55)), 
+    url("../assets/fondo tese 2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    background-color:white;
+    color: #fff;
 }
 
 h1 {
@@ -15,13 +29,36 @@ h2 {
 	letter-spacing: 2px;
 	margin-bottom: 4px;
 }
+
+h2.titulo {
+    text-align:center ;
+	font-size: 40px;
+	font-weight: 600;
+	letter-spacing: 2px;
+	margin-bottom: 4px;
+}
 h3 {
 	font-size: 22px;
 	font-weight: 300;
 	letter-spacing: 2px;
 }
+a.correo {
+    
+    color:rgb(245, 220, 226);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 25px;
+	font-weight: 300;
+	letter-spacing: 2px;
+}
 h4	{
 	font-size: 18px;
+	font-weight: 600;
+	letter-spacing: 2px;
+}
+h4.sub	{
+    text-align: center;
+    
+	font-size: 25px;
 	font-weight: 600;
 	letter-spacing: 2px;
 }
@@ -34,10 +71,17 @@ p {
 	font-family: 'Work Sans', sans-serif;
     line-height: 24px;
     font-size: 15px;
-    color: #606060;
+    color:white;
     font-weight: 300;
 }
-
+p.editorial {
+    text-align: center;
+	font-family: 'Work Sans', sans-serif;
+    line-height: 24px;
+    font-size: 22px;
+    color:white;
+    font-weight: 300;
+}
 hr {
     border-top: 1px solid rgba(0,0,0,.2);
 }
@@ -133,7 +177,8 @@ sub, sup {
 
 /*Title styles for all sections*/
 .section-title {
-	text-align: center;
+    text-align: center;
+    color: white;
 	padding-bottom: 90px;
 }
 .section-title h2 {
@@ -183,7 +228,8 @@ section, .video-review {
 }
 
 #overview .section-title {
-    padding-bottom: 60px
+    padding-bottom: 60px;
+    text-align: initial;
 }
 
 
@@ -483,7 +529,7 @@ header p {
 .pricing-table h4 {
     font-size: 18px;
     text-transform: uppercase;
-    color: #292929;
+    color: white;
     padding-top: 40px;
     padding-bottom: 40px;
     margin-bottom: 0;
@@ -496,7 +542,7 @@ header p {
 
 .pricing-table .price {
     font-family: 'Work Sans', sans-serif;
-    background-color: #292929;
+    background-color: white;
     padding-top: 25px;
     padding-bottom: 25px;
     font-size: 46px;
