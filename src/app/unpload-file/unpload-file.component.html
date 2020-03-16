@@ -1,20 +1,21 @@
 <div class="container pt-3">
-    <div class="row justify-content-sm-center">
-      <div class="col-sm-10 col-md-6">
-        <div class="card border-info">
-          <div class="card-header">Agregar Articulo</div>
-          <div class="card-body">         
-                <label> Titulo de Articulo: </label>                   
-                <input type="text" class="form-control mb-2" placeholder="Titulo" #userEmail required autofocus>
-                <label> Numero De Revista: </label>  
-                <input type="text" class="form-control mb-2" placeholder="Numero De Revista" #userEmail required autofocus>
-                <label> Archivo PDF:  </label> <br>
-                <input id="file-unpload" class="inputFile" type="file" required>                
-                <br>
-                <br>
-                <button  class="btn btn-lg btn-primary btn-block mb-1" style="background:firebrick;" (click)="authService.login(userEmail.value, userPassword.value)">Guardar Articulo</button>
+  <div class="row justify-content-sm-center">
+    <div class="col-sm-10 col-md-6">
+      <div class="card border-info">
+        <div class="card-header">Agregar Articulo</div>
+        <div class="card-body">
+          <label> Titulo de Articulo: </label>
+          <input type="text" class="form-control mb-2" placeholder="Titulo" #userEmail required autofocus>
+          <label> Numero De Revista: </label>
+          <input type="text" class="form-control mb-2" placeholder="Numero De Revista" #userEmail required autofocus>
+          <label> Archivo PDF: </label> <br>
+          <input id="file-unpload" class="inputFile" type="file" required>
+          <br>
+          <br>
+          <div align="Center"><button button title="Guardar Articulo" class="btn btn-sm btn-primary btn-sm mb-1"style="background:firebrick;" (click)="authService.login(userEmail.value, userPassword.value)"><img src="https://firebasestorage.googleapis.com/v0/b/revistatecnocultura-ef63f.appspot.com/o/Iconos%2Fguardar.png?alt=media&token=67ee91f5-f8cd-49f7-87ac-2fd4ecbf6ea6" alt="Guardar Articulo"></button>
           </div>
         </div>
       </div>
     </div>
   </div>
+</div>
