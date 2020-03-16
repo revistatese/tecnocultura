@@ -27,13 +27,13 @@ export  class  AuthService {
         await  this.afAuth.auth.signInWithEmailAndPassword(email, password)
         this.router.navigate(['Administrador']);
     } catch (e) {
-        alert("Error!"  +  e.message);
+        alert("Error: "  +  e.message);
     }
     }
     async logout(){
       await this.afAuth.auth.signOut();
       localStorage.removeItem('user');
-      this.router.navigate(['Inicio']);
+      this.router.navigate(['admin/login']);
   }
   get isLoggedIn(): boolean {
     const  user  =  JSON.parse(localStorage.getItem('user'));
