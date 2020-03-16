@@ -27,7 +27,7 @@ export  class  AuthService {
         await  this.afAuth.auth.signInWithEmailAndPassword(email, password)
         this.router.navigate(['Administrador']);
     } catch (e) {
-        alert("Error!"  +  e.message);
+        alert("Error: "  +  e.message);
     }
     }
     async logout(){
