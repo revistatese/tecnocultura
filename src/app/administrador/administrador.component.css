@@ -1,0 +1,21 @@
+div.center {
+    text-align: center;
+    
+  }
+
+.button{
+    background:firebrick;
+    color: #fff;
+    display: inline-block;
+    font-size: 1.25em;
+    margin: 20px;
+    padding: 10px 10px;
+    text-align: center;
+    width: 200px;
+    text-decoration: none;
+    margin-left: 10%;
+
+
+  }
+  
+  
