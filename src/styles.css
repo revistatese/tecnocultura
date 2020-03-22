@@ -299,14 +299,7 @@ h4 {
 
 
 header {
-	background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.4)),
-                url(https://firebasestorage.googleapis.com/v0/b/tecnocultura-df5ce.appspot.com/o/fondo%20tese.png?alt=media&token=31791dc9-33be-44a3-a859-5043260a3a85);
-    background-color: #202020;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: top;
-	color: #fff;
-	padding-top: 150px;
+		padding-top: 150px;
 	padding-bottom: 150px;
 }
 
