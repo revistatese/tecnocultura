@@ -38,14 +38,6 @@ export class UnploadFileComponent implements OnInit {
     }else{
 
 
-
-
-
-
-
-
-
-
     }
     
   }
