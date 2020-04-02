@@ -12,14 +12,23 @@
           <br>
           <label> Archivo PDF: </label> <br>
           <input id="file-unpload" class="inputFile" type="file" required>
+          <i class="fas fa-file-pdf"></i>
           <br>
           <br>
           <label> Imagen De Portada: </label> <br>
           <input id="file-unpload" class="inputFile" type="file" required>
+          <i class="fas fa-file-image"></i>
           <br>
           <br>
-          <div align="Center"><button button title="Guardar Articulo" class="btn btn-sm btn-primary btn-sm mb-1"style="background:firebrick;" (click)="authService.login(userEmail.value, userPassword.value)"><img src="https://firebasestorage.googleapis.com/v0/b/revistatecnocultura-ef63f.appspot.com/o/Iconos%2Fguardar.png?alt=media&token=67ee91f5-f8cd-49f7-87ac-2fd4ecbf6ea6" alt="Guardar Articulo"></button>
-          </div>
+          <button class ="btn btn-primary" type="submit">
+            <i class ="fas fa-save"></i>GUARDAR
+          
+          </button>
+          <br>
+          <br>
+          <button class=" btn-primary" style="background: #ffffff" type="submit" onclick="history.back()" >
+          <i class="fas fa-arrow-alt-circle-left"></i>
+        </button>
         </div>
       </div>
     </div>

@@ -39,6 +39,7 @@ import { UnploadFileComponent } from './unpload-file/unpload-file.component';
 
 
 
+
 var config = {
   apiKey: "AIzaSyBPtj72z2hEkAiElAJa5GdghKVrB5ehdk4",
     authDomain: "revistatecnocultura-ef63f.firebaseapp.com",
@@ -81,6 +82,7 @@ var config = {
     Numero40Component,
     Numero41Component,
     UnploadFileComponent,
+  
     
     
  

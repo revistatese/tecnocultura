@@ -23,6 +23,7 @@
     "angularjs-responsive-navbar": "^1.0.1",
     "bootstrap": "^4.3.1",
     "firebase": "^7.12.0",
+    "npm": "^6.14.4",
     "rxjs": "~6.4.0",
     "tslib": "^1.10.0",
     "zone.js": "~0.9.1"
