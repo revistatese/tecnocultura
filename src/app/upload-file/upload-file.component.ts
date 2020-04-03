@@ -6,11 +6,11 @@ import { Key } from 'protractor';
 
 @Component({
   selector: 'app-unpload-file',
-  templateUrl: './unpload-file.component.html',
-  styleUrls: ['./unpload-file.component.css']
+  templateUrl: './upload-file.component.html',
+  styleUrls: ['./upload-file.component.css']
 })
 
-export class UnploadFileComponent implements OnInit {
+export class UploadFileComponent implements OnInit {
 
   constructor() { }
 

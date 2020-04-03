@@ -33,7 +33,7 @@ import { Numero40Component } from './numero40/numero40.component';
 import { Numero41Component } from './numero41/numero41.component';
 import{AuthService} from './auth/auth.service.service';
 import { AdministradorComponent } from './administrador/administrador.component';
-import { UnploadFileComponent } from './unpload-file/unpload-file.component';
+import { UploadFileComponent } from './upload-file/upload-file.component';
 
 
 
@@ -81,14 +81,8 @@ var config = {
     Numero35Component,
     Numero40Component,
     Numero41Component,
-    UnploadFileComponent,
-  
+    UploadFileComponent,
     
-    
- 
- 
-
-
   ],
   imports: [
     BrowserModule,
