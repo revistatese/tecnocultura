@@ -34,6 +34,7 @@ import { Numero41Component } from './numero41/numero41.component';
 import{AuthService} from './auth/auth.service.service';
 import { AdministradorComponent } from './administrador/administrador.component';
 import { UploadFileComponent } from './upload-file/upload-file.component';
+import { ActualizaRevistaComponent } from './actualiza-revista/actualiza-revista.component';
 
 
 
@@ -82,6 +83,7 @@ var config = {
     Numero40Component,
     Numero41Component,
     UploadFileComponent,
+    ActualizaRevistaComponent,
     
   ],
   imports: [

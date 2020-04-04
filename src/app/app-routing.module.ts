@@ -24,6 +24,7 @@ import { Numero35Component } from './numero35/numero35.component';
 import { Numero40Component } from './numero40/numero40.component';
 import { Numero41Component } from './numero41/numero41.component';
 import { UploadFileComponent } from './upload-file/upload-file.component';
+import { ActualizaRevistaComponent } from './actualiza-revista/actualiza-revista.component';
 
 
 
@@ -122,6 +123,11 @@ component:  NAnterioresComponent
                   path:  'upload-file',
                   component:  UploadFileComponent
                   },
+ 
+{
+                  path:  'actualiza-revista',
+                  component:  ActualizaRevistaComponent
+                  }
  
   
     

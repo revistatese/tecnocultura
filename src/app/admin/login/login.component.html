@@ -12,7 +12,10 @@
               <div class="col-md-8">  
                   <input type="text" class="form-control mb-2" placeholder="Email" #userEmail required autofocus>
                   <input type="password" class="form-control mb-2" placeholder="Password" #userPassword required>
-                <div align="Center"><button title="Log-In" class="btn btn-sm btn-primary btn-sm" style="background:firebrick" (click)="authService.login(userEmail.value, userPassword.value)" ><img src="https://firebasestorage.googleapis.com/v0/b/revistatecnocultura-ef63f.appspot.com/o/Iconos%2FIniciarSesion.png?alt=media&token=feb54968-85b2-4e44-8f47-527150e5e6e1" alt="IniciarSesion" >Iniciar Sesión </button>
+                  <br>
+                <div align="Center">
+                  <button title="Log-In" class="btn btn-sm btn-primary btn-sm" style="background:firebrick" (click)="authService.login(userEmail.value, userPassword.value)" >
+                    <i class="fas fa-sign-in-alt"></i>Iniciar Sesión </button>
                 </div>  
               </div>
             </div>
