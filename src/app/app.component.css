@@ -1,0 +1,19 @@
+.containerI{
+    position: sticky;
+    left: 100px;
+    top: 100px;
+    animation-duration: 6s;
+    animation-iteration-count: initial;
+}
+.slider {
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    margin: auto;
+    overflow: hidden;
+    top:0;
+    left:0;
+    z-index:-1 ;
+   
+}
