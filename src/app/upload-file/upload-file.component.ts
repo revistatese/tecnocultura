@@ -13,15 +13,9 @@ import { Key } from 'protractor';
 export class UploadFileComponent implements OnInit {
 
   constructor() { }
-
-  
-  
-
   ngOnInit() {
   }
 
-
- 
 
   validacion(){
 
