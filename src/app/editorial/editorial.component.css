@@ -1,11 +1,10 @@
 #pricing {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.55)), 
-    url("../assets/fondo tese 2.jpg");
+
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     position: relative;
-    background-color: #202020;
+    background-color:initial;
     color: rgb(245, 11, 11);
 }
 p.editorial{
