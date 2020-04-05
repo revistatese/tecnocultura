@@ -36,6 +36,9 @@ import { AdministradorComponent } from './administrador/administrador.component'
 import { UploadFileComponent } from './upload-file/upload-file.component';
 import { ActualizaRevistaComponent } from './actualiza-revista/actualiza-revista.component';
 
+import { AngularFireStorageModule } from '@angular/fire/storage'; 
+
+
 
 
 
@@ -83,7 +86,8 @@ var config = {
     Numero40Component,
     Numero41Component,
     UploadFileComponent,
-    ActualizaRevistaComponent,
+    ActualizaRevistaComponent
+    
     
   ],
   imports: [
@@ -92,7 +96,9 @@ var config = {
     AdminModule,
     
     AngularFireModule.initializeApp(config),
-    AngularFireAuthModule
+    AngularFireAuthModule,
+    AngularFireStorageModule
+    
   ],
   providers: [AuthService],
   bootstrap: [AppComponent]
