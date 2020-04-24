@@ -1,6 +1,5 @@
 body{
-    background: linear-gradient(white (0, 0, 0, 0.5), white (0, 0, 0, 0.55)), 
-    url("../assets/fondo tese 2.jpg");
+
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -12,10 +11,16 @@ body{
     .active-link{
     color:red;
     }
+    .author{
+        padding:0px 0px 0px;
+    }
 
+    section, .video-review {
+        padding-top: 20px;
+        padding-bottom: 50px;
+    }
     #pricing {
-        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.55)), 
-        url("../assets/fondo tese 2.jpg");
+
         background-size: cover;
         background-position: center;
         background-attachment: fixed;
@@ -50,7 +55,7 @@ body{
         color: white;
         background-color:initial;
         padding-bottom: 50px;
-        margin-top: 15px;
+        margin-top: 25px;
         margin-bottom: 15px;
         border-radius: 4px;
     }
@@ -131,3 +136,13 @@ body{
         width: 100%;
         position: relative;
     }    
+/*
+    .container{
+        margin-top: 25px;
+        display:grid;
+        grid-row-gap: 15px;
+        justify-content:center ;
+
+        
+    }
+    */

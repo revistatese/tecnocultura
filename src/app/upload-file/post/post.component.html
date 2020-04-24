@@ -1,18 +1,24 @@
+<!------- Barra de navegacion--->
 
+  <!------Fin barra de navegacion-->
   <!----Titulo y portada de revista---->
-  <section id="author">
-    <div class="container">
-      <div class="section-title">
-        <h2 class="numero">Numero 49</h2>
+  <section id="author" >
+    <div class="container" >
+      <div class="section-title"  *ngIf="revista$ | async as revista">
+        <h2 class="numero">Numero {{revista.numeroR}} </h2>
   <p>&nbsp;</p>
         <div class="row">
           <div class="col-lg-6">
             <div class="pricing-table">
-              <h4>Numero 49</h4>
+              <h4>Numero {{revista.numeroR}}</h4>
               <!-- <p><a href="assets/TECNOCULTURAS/44.pdf" target="_blank"></a></p> -->
-              <p><a href="https://firebasestorage.googleapis.com/v0/b/testresvista-66c5f.appspot.com/o/Articulos%2F49.pdf?alt=media&token=6a6c0107-7a80-4c9c-b3ed-2e357f6d9463" target="_blank"><img src="https://firebasestorage.googleapis.com/v0/b/testresvista-66c5f.appspot.com/o/Portadas%2F49.jpg?alt=media&token=072b4030-cad5-42eb-b8af-ea64ebd05172" width="1225" height="1075" alt="TecnoCultura49" class="img-fluid"></a></p>
+              <p><a href="{{revista.pdf}}" target="_blank"><img src="{{revista.imagenR}}" width="1225" height="1075" alt="TecnoCultura{{revista.numeroR}}" class="img-fluid"></a></p>
+            
             </div>
+            <input type="file">
+            <button type="submit"class="btn btn-info" *ngIf="authService.isLoggedIn">Agregar pdf</button>
           </div>
+
           <!----Fin titulo y portada revista--->
 
           <!---Columna derecha-->

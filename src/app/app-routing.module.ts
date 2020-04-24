@@ -1,3 +1,7 @@
+import { NewPostComponent } from './upload-file/new-post/new-post.component';
+import { PostComponent } from './upload-file/post/post.component';
+
+
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 //Componentes
@@ -28,10 +32,15 @@ import { ActualizaRevistaComponent } from './actualiza-revista/actualiza-revista
 
 
 
+
 const routes: Routes = [
-    {
+
+
+  {path:'',redirectTo: '/Inicio',pathMatch: 'full'},
+  {path: 'post/:id', component:PostComponent},
+  {
       path:  'Inicio',
-      component:  InicioComponent
+    component: InicioComponent
   },    {
     path:  'Conocenos',
     component:  ConocemosComponent
@@ -127,8 +136,8 @@ component:  NAnterioresComponent
 {
                   path:  'actualiza-revista',
                   component:  ActualizaRevistaComponent
-                  }
- 
+                  },
+ {path: 'Revista', component: NewPostComponent}
   
     
   ];

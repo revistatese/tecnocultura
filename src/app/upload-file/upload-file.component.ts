@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Numero17Component } from '../numero17/numero17.component';
+
 
 import { HostListener } from '@angular/core';
 import { Key, element } from 'protractor';
@@ -11,7 +11,7 @@ import { AngularFireStorage } from '@angular/fire/storage';
 import {finalize} from 'rxjs/operators';
 import {Observable} from 'rxjs/internal/Observable';
 @Component({
-  selector: 'app-unpload-file',
+  selector: 'app-upload-file',
   templateUrl: './upload-file.component.html',
   styleUrls: ['./upload-file.component.css']
 })

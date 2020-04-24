@@ -1,6 +1,9 @@
+import { RevistaServiceService } from './services/revista-service.service';
+import{ FormsModule} from '@angular/forms';
+import { environment } from './../environments/environment.prod';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import{ReactiveFormsModule} from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
@@ -13,8 +16,7 @@ import { ContactanosComponent } from './contactanos/contactanos.component';
 import { LineamientosComponent } from './lineamientos/lineamientos.component';
 import { AdminModule } from './admin/admin.module'
 
-import { AngularFireModule } from "@angular/fire";
-import { AngularFireAuthModule } from "@angular/fire/auth";
+
 import { LoginComponent } from './admin/login/login.component';
 import { Numero49Component } from './numero49/numero49.component';
 import { Numero48Component } from './numero48/numero48.component';
@@ -36,25 +38,23 @@ import { AdministradorComponent } from './administrador/administrador.component'
 import { UploadFileComponent } from './upload-file/upload-file.component';
 import { ActualizaRevistaComponent } from './actualiza-revista/actualiza-revista.component';
 
-import { AngularFireStorageModule } from '@angular/fire/storage'; 
+
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MaterialModule } from './material/material.module';
+import { NewPostComponent } from './upload-file/new-post/new-post.component';
+import { ModalComponent } from './shared/modal/modal.component';
+import { EditPostComponent } from './upload-file/edit-post/edit-post.component';
+import { PostComponent } from './upload-file/post/post.component';
+
+
+import { AngularFireModule } from "@angular/fire";
+import { AngularFireAuthModule } from "@angular/fire/auth";
+import { AngularFireStorageModule, StorageBucket } from '@angular/fire/storage';
+import { AngularFirestoreModule } from '@angular/fire/firestore';
 
 
 
 
-
-
-
-var config = {
-  apiKey: "AIzaSyBPtj72z2hEkAiElAJa5GdghKVrB5ehdk4",
-    authDomain: "revistatecnocultura-ef63f.firebaseapp.com",
-    databaseURL: "https://revistatecnocultura-ef63f.firebaseio.com",
-    projectId: "revistatecnocultura-ef63f",
-    storageBucket: "revistatecnocultura-ef63f.appspot.com",
-    messagingSenderId: "854432391264",
-    appId: "1:854432391264:web:b3dffceb1ffe1f9083e305"
-
-
-};
 
 
 @NgModule({
@@ -86,7 +86,13 @@ var config = {
     Numero40Component,
     Numero41Component,
     UploadFileComponent,
-    ActualizaRevistaComponent
+    ActualizaRevistaComponent,
+    NewPostComponent,
+    ModalComponent,
+    EditPostComponent,
+    PostComponent,
+    
+  
     
     
   ],
@@ -95,12 +101,22 @@ var config = {
     AppRoutingModule,
     AdminModule,
     
-    AngularFireModule.initializeApp(config),
+    AngularFireModule.initializeApp(environment.firebaseConfig),
+    AngularFirestoreModule,
     AngularFireAuthModule,
-    AngularFireStorageModule
+    AngularFireStorageModule,
+
+    BrowserAnimationsModule,
+    MaterialModule,
+    FormsModule,
+    ReactiveFormsModule
     
   ],
-  providers: [AuthService],
+  entryComponents:[ModalComponent],
+  providers: [
+    {provide:StorageBucket,useValue: 'gs://revistatecnocultura-ef63f.appspot.com'},
+    RevistaServiceService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -1,3 +1,4 @@
+<!-----------------
 <section id="author">
   <div class="container1">
     <div class="section-title">
@@ -199,3 +200,52 @@
   <p><a href="#"><img src="https://firebasestorage.googleapis.com/v0/b/testresvista-66c5f.appspot.com/o/Portadas%2F01.jpg?alt=media&token=c9eff81d-2f21-49a5-8a85-ab95d1b78554" width="525" height="675" alt="TecnoCultura48" class="img-fluid">Numero 01</a></p>
 </div>
 </div>
+------>
+
+<div class="container">
+<div class="row">
+  <div class="col-md-8">
+<table mat-table [dataSource]="dataSource" matSort class="mat-elevation-z8">
+
+  <!-- Position Column -->
+  <ng-container matColumnDef="numero">
+    <th mat-header-cell *matHeaderCellDef  mat-sort-header> Numero </th>
+    <td mat-cell *matCellDef="let element">Revista {{element.numeroR}} </td>
+  </ng-container>
+
+  <!----Acciones-->
+  <ng-container matColumnDef="actions">
+    <th mat-header-cell *matHeaderCellDef  >Acciones</th>
+    <td mat-cell *matCellDef="let element">
+      <button  (click)="onPreUpdate(element)">
+        <i class="fas fa-pen-square"></i>
+      Editar
+      </button>
+      <button  (click)="onDeletePost(element)">
+        <i class="fas fa-trash"></i>
+        Eliminar
+           </button>
+    </td>
+  </ng-container>
+
+  <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+  <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+
+</table>
+<mat-paginator [length]="100"
+              [pageSize]="5"
+              [pageSizeOptions]="[ 5, 10]">
+</mat-paginator>
+</div>
+
+
+
+  
+<div class="col-md-4">
+<app-new-post></app-new-post>
+</div>
+</div>
+</div>
+
+
+

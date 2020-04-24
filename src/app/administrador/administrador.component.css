@@ -1,3 +1,98 @@
+
+
+table {
+    width: 80%;
+    margin-top: 5rem;
+  }
+  .mat-table{
+background:rgba(255, 255, 254, 0.877);
+}
+.mat-paginator{
+    background:rgba(255, 255, 255, 0.877); ;
+    color: rgb(0, 0, 0);
+    width: 80%;
+}
+    th.mat-sort-header-sorted {
+    color: rgb(252, 10, 10);
+  }
+.mat-form-field{
+    font: normal;
+    font-size: 1rem;
+    width: 30%;
+    margin: 0 auto;
+    display: block;
+    margin-top: 5rem;
+    background:rgba(255, 255, 254, 0.877);
+    color: rgb(0, 0, 0);
+      
+}
+.container-btn-new{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin: 1rem -0.6rem ;
+
+}
+
+  button{
+      background: none;
+      border: 0px;
+      padding: 0px;
+      margin: 0px;
+      margin-right: 12px;
+      outline: none;
+  }
+.btn-primary{
+    background: rgb(0, 119, 255);
+    height: 35px;
+}
+  .fa-pen-square{
+    background: rgb(54, 197, 207);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: 5px 5px 5px 5px;
+}
+.fa-trash{
+    background: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: 5px 5px 5px 5px;
+}
+.fa-plus-square{
+    background: rgb(52, 163, 238);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: 5px 5px 5px 5px;
+}
+button:hover{
+    background: rgb(207, 207, 209);
+ }
+ 
+ .Boton{
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    border-radius: 2px;
+    border: 1px solid;
+ }
+ .Boton:hover{
+     background: rgb(51, 89, 172);
+ }
+
+ .container-btn-new {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin: 1rem -0.6rem;
+   
+  }
+  .col-md-4{
+      width: 100%;
+      padding: 0px;
+  }
+ 
+ 
+  /**/
 div.center {
     text-align: center;
     
@@ -151,5 +246,5 @@ div.center {
         width: 100%;
         position: relative;
     }    
-  
+
   
