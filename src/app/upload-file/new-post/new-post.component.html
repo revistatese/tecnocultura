@@ -26,7 +26,7 @@
           <h1 class="titulo">AGREGAR NUEVA REVISTA</h1>
           <input type="hidden" name="id" [(ngModel)]="postSvc.selectedRevista.id">
         <div class="etiqueta">
-          <label>Numero de Revista: </label>
+          <label>Número de Revista: </label>
         </div>
           <div class="form-group">
               <input 
@@ -35,7 +35,7 @@
               name="numeroR"
               #nombre="ngModel"
               [(ngModel)]="postSvc.selectedRevista.numeroR"
-              placeholder="Escribe numero de revista"
+              placeholder="Escribe número de revista:"
               >
               <div class="alert-danger" *ngIf="(numeroR.touched || numeroR.dirty) && numeroR.errors.minLength">
                 <div class="container-error-message">
@@ -55,7 +55,7 @@
               />
           </div>
           <div class="etiqueta">
-            <label>Selecciona Articulo:</label>
+            <label>Selecciona Artículo:</label>
           </div>
                     <div class="form-group">
                         <input

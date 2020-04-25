@@ -2,15 +2,15 @@
 <section id="author">
   <div class="container1">
     <div class="section-title">
-      <h2>Administra Tus Articulos</h2>
-      <p>Organiza Tus Articulos</p>
-      <a [routerLink]="['/upload-file']" button title="Agregar Articulo"  class ="btn btn-sm btn-primary btn-sm" style="background: #A8A8A8 " type="submit" alt="Agregar Articulo">
+      <h2>Administra Tus Artículos</h2>
+      <p>Organiza Tus Artículos</p>
+      <a [routerLink]="['/upload-file']" button title="Agregar Artículo"  class ="btn btn-sm btn-primary btn-sm" style="background: #A8A8A8 " type="submit" alt="Agregar Articulo">
         <i class="fas fa-plus-circle"></i>
       </a>      
-       <a [routerLink]="['/actualiza-revista']" button title="Modificar Articulo" class="btn btn-sm btn-primary btn-sm" style="background: #A8A8A8" type ="submit" alt="Modificar Articulo" >
+       <a [routerLink]="['/actualiza-revista']" button title="Modificar Artículo" class="btn btn-sm btn-primary btn-sm" style="background: #A8A8A8" type ="submit" alt="Modificar Articulo" >
         <i class="far fa-edit"></i>
       </a>
-      <a [routerLink]="['']"button title="Eliminar Articulo" class="btn btn-sm btn-primary btn-sm" style="background:#A8A8A8" type ="submit" alt="Eliminar Articulo" >
+      <a [routerLink]="['']"button title="Eliminar Artículo" class="btn btn-sm btn-primary btn-sm" style="background:#A8A8A8" type ="submit" alt="Eliminar Articulo" >
         <i class="far fa-trash-alt"></i>
       </a>
        <div class="row">
@@ -209,8 +209,8 @@
 
   <!-- Position Column -->
   <ng-container matColumnDef="numero">
-    <th mat-header-cell *matHeaderCellDef  mat-sort-header> Numero </th>
-    <td mat-cell *matCellDef="let element">Revista {{element.numeroR}} </td>
+    <th mat-header-cell *matHeaderCellDef  mat-sort-header> Número: </th>
+    <td mat-cell *matCellDef="let element">Revista: {{element.numeroR}} </td>
   </ng-container>
 
   <!----Acciones-->
