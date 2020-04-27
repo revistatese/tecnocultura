@@ -1,41 +1,4 @@
-/*
-.new-post-container{
-    display: flex;
-    flex-direction: column;
-   
 
-}
-form{
-    margin-bottom: 20px;
-
-
-}
-.mat-form-field{
-width: 100%;
-}
-input.mat-flat-button{
-   width: 100%;
-   background: blue;
-
-}
-input[type='file']{
-    display: none;
-}
-.custom-file{
-    border: 1px solid;
-    display: inline-block;
-    padding: 6px;
-    cursor: pointer;
-    width: 100%;
-
-}
-.container-button{
-    min-height: 80px;
-}
-.container-input-file{
-    margin: 2rem 0;
-}
-*/
 
 .mt-5{
     width: 100%;

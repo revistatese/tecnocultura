@@ -10,9 +10,7 @@ import { isUndefined } from 'util';
 })
 export class ModalComponent implements OnInit {
 
-  constructor(//public dialog: MatDialogRef<ModalComponent>,
-    // tslint:disable-next-line: align
-   /// @Inject(MAT_DIALOG_DATA) public data: any
+  constructor(
   private pstSvc: RevistaServiceService) { }
   ngOnInit() {
   }

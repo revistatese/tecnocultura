@@ -9,14 +9,7 @@ body {
 Fondo de las revistas
 ===================
 
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.55)), 
-    url("../assets/fondo tese 2.jpg");
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    position: relative;
-    background-color:white;
-    color: #fff;    
+    
 */
 }
 
@@ -326,40 +319,7 @@ header p {
 ===========
 */
 
-/*table{
-    background-color: #EE5A3F;
-        color: #fff;
-        padding-top: 44px;
-        padding-bottom:44px;
-        text-align: left;
-        border-collapse: collapse;
-        width: 100%;
-        text-align: left;
-    }
-    th{
-        padding-left:50px;
-        width:33%;
-    }
-    .stats-list h3 {
-        text-transform: uppercase;
-    }
-    #books{
-        width: 50px;
-        height: 50px;
-        background: url(assets/libros.jpeg)
-    }
-    
-    #calendar{
-        width: 50px;
-        height:50px;
-        background: url(assets/calendario.jpeg)
-    }
-    
-    #news{
-        width: 50px;
-        height:50px;
-        background: url(assets/revista.jpeg);
-    }*/    
+
     .statics {
         background-color: rgba(250, 136, 136, 0.788);
         color: #fff;
@@ -542,17 +502,8 @@ header p {
 08. Pricing Tables
 ===================
 */
-/*
-#pricing {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.55)), 
-    url("../assets/fondo tese 2.jpg");
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    position: relative;
-    background-color: #202020;
-    color: #fff;
-}*/
+
+
 #pricing .section-title {
     padding-bottom: 75px;
 }

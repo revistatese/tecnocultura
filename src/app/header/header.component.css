@@ -12,9 +12,7 @@
     animation-name: slideInDown;
 }
 
-/*=============================
-CSS Smooth Aiimation Transition
-=============================*/
+
 .btn, a, i{
     -webkit-transition: all 0.25s ease-in;
     -moz-transition: all 0.25s ease-in;
@@ -22,7 +20,7 @@ CSS Smooth Aiimation Transition
     -o-transition: all 0.25s ease-in;
     transition: all 0.25s ease-in;
 }
-/*Smooth Color only Transition*/
+
 h4 {
 	-webkit-transition: color 0.2s ease-in;
     -moz-transition: color 0.2s ease-in;
