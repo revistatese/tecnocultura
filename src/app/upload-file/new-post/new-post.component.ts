@@ -30,8 +30,7 @@ export class NewPostComponent implements OnInit {
   
       console.log('valid', data);
       this.postSvc.preAddAndUpdatePost(data, this.image,this.pdf);
-     
-
+      this.resetForm();
   }
   get numeroR(){return this.RevistaForm.get('numeroR');}
   get imagenR(){return this.RevistaForm.get('imagenR');}
@@ -52,8 +51,12 @@ export class NewPostComponent implements OnInit {
   }
 
 
+
+  }
+
+
   
-}
+
 
 
 
